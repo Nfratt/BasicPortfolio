@@ -13,14 +13,13 @@
      text-align: center
 
 }
+body{
+    background-image: url("../images/leaves-pattern.png")
+    
+}
 header{
    
-    width: 300px;
-    padding-left: 200px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #4aaaa5;
-    color: #ffffff ;
-    font-size: 150%
     
     
 }
