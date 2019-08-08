@@ -7,9 +7,9 @@
 #Content{
      width: 960px;
      color:black;
-     border: green;
-     border-width: 1px;
+    
      text-align: center;
+     background: #ffffffff
 }
 body{
     background-image: url("../images/leaves-pattern.png")
@@ -35,4 +35,22 @@ img{
 }
 header{ 
 
+}
+
+h2{
+    color: #4aaaa5
+}
+#questionnaire{
+    width: 960px;
+    background: white;
+
+}
+footer{
+    position: flex;
+    color: whitesmoke;
+    background:#666666;
+    text-align: center
+}
+#portfolio{
+    background: white;
 }
