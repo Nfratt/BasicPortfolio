@@ -7,9 +7,9 @@
 #Content{
      width: 960px;
      color:black;
-    
      text-align: center;
-     background: #ffffffff
+     background: #ffffffff;
+     align-content: center
 }
 body{
     background-image: url("../images/leaves-pattern.png")
@@ -19,12 +19,12 @@ h1{
    background:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+    width: 200px2
 }
 p{
     padding: 20px
 }
 img{
-    clear: both;
     width: 250px;
     height: 200px;
     float: left
@@ -38,7 +38,9 @@ header{
 }
 
 h2{
-    color: #4aaaa5
+    color: #4aaaa5;
+    font-size: 200%;
+    border-bottom: 2px solid grey;
 }
 #questionnaire{
     width: 960px;
@@ -49,8 +51,30 @@ footer{
     position: flex;
     color: whitesmoke;
     background:#666666;
-    text-align: center
+    text-align: center;
+    clear: both;
 }
 #portfolio{
     background: white;
+}
+#hangman{
+    float: left;
+    clear: both;
+}
+#trivia{
+    float: left;
+    clear: both;
+}
+#rps
+{
+    float: left;
+    clear: both;
+}
+
+#rpg{
+    clear: right;
+}
+#infoWidget
+{
+    /* float: right; */
 }
