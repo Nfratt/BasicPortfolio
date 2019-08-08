@@ -1,25 +1,38 @@
 
  * {
     box-sizing: border-box;
-
   }
 
 
-#content{
+#Content{
      width: 960px;
-     color: red;
+     color:black;
      border: green;
-     border-width: 1px
-     text-align: center
-
+     border-width: 1px;
+     text-align: center;
 }
 body{
     background-image: url("../images/leaves-pattern.png")
     
 }
-header{
-   
+h1{
+   background:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    
+    color: white;
+}
+p{
+    padding: 20px
+}
+img{
+    clear: both;
+    width: 250px;
+    height: 200px;
+    float: left
+}
+#links{
+    float: right;
+    font-size: 125%;
+}
+header{ 
+
 }
