@@ -1,0 +1,26 @@
+
+ * {
+    box-sizing: border-box;
+
+  }
+
+
+#content{
+     width: 960px;
+     color: red;
+     border: green;
+     border-width: 1px
+     text-align: center
+
+}
+header{
+   
+    width: 300px;
+    padding-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+    color: #ffffff ;
+    font-size: 150%
+    
+    
+}
